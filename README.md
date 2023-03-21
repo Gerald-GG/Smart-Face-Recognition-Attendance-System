@@ -3,11 +3,11 @@ Developed this System using Python Programming Language.
 
 ### Recognize The faces And Take Automatic Attandance.
 
-## Motivation :astonished:
+## Motivation:
 ----------------------------
 I seek to provide a valuable attendance service for both lectures/teachers and students. Reduce manual process errors by provide automated and a reliable attendance system that uses face recognition technology.
 
-## Features: 
+## Features:
 ---------------------------
 * Check_Camera
 * capture_image
@@ -42,4 +42,3 @@ Software Used -
 * Pycharm 2019.2
 * VS CODE
 * Anaconda
-* 
