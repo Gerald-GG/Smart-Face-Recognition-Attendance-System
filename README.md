@@ -14,6 +14,8 @@ I seek to provide a valuable attendance service for both lectures/teachers and s
 * Train_Images
 * Recognize (Recognizes and marks Attendance)
 * Automatic Email
+* Weekly_Report
+* Sem_Report
 
 
 ## Tech Used :computer:
