@@ -1,0 +1,73 @@
+header {
+    background-color: #1E90FF;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2em;
+}
+
+section {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 0.5em 0;
+}
+
+input[type="text"],
+input[type="file"] {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 1em;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+
+button[type="submit"],
+button {
+    background-color: #1E90FF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+}
+
+button:hover {
+    background-color: #20323a;
+}
+
+#chart {
+    height: 200px;
+    width: 80%;
+}
+
+footer {
+    background-color: skyblue;
+    padding: 1em;
+    text-align: center;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Face Recognition Attendance System</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Smart-Face-Recognition-Attendance-System</h1>
+    </header>
+
+    <main>
+        <section id="register">
+            <h2>Register</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="name">Reg No:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="photo">Photo:</label>
+                <input type="file" id="photo" name="photo">
+                <button id="captureImage">Capture Image</button>
+                <button id="checkCamera">Check Camera</button>
+            </form>
+        </section>
+
+        <section id="attend">
+            <h2>Attendance</h2>
+            <button id="recognize">Recognize</button>
+        </section>
+
+        <section id="attend">
+            <h2>Training Image</h2>
+            <button id="trainImages">Train Images</button>
+        </section>
+
+        <section id="attend">
+            <h2>Recognize Student</h2>
+            <button id="recognize">Recognize</button>
+        </section>
+
+        <section id="report">
+            <h2>Reports</h2>
+            <button id="generateReport">Generate Weekly Report</button>
+            <hr>
+            <button id="generateReport">Generate Semester Report</button>
+            <hr>
+            <div id="chart"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Smart-Face-Recognition-Attendance-System</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
