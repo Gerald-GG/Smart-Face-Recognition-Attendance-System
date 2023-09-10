@@ -1,3 +1,4 @@
+     #SMART FACE RECOGNITION SYSTEM
 import cv2
 import os
 
